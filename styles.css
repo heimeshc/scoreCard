@@ -1,0 +1,60 @@
+@font-face {
+    font-family: cursedTimer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    background-color: #1B244A;
+    color: rgb(236, 229, 229);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+    gap: -600px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.home {
+    text-align: center;
+    margin-top: 68px;
+}
+
+.guest {
+    text-align: center;
+    margin-top: 68px;
+}
+
+.score-cardHome, .score-cardGuest{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 80px;
+    padding: 30px;
+    color: #F94F6D;
+    font-family: cursedTimer;
+}
+
+
+.buttons {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    border: 2px solid rgb(196, 196, 196);
+    background-color: #1B244A;
+    color: rgb(209, 209, 209);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: cursedTimer;
+}
